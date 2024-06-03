@@ -11,7 +11,7 @@ const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [254745590936];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -22,7 +22,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 }
 
 //global.pairingNumber = "" //put your bot number here
-
+254745590936
 global.mods = ['917605902011', '32460248586']
 global.prems = ['917605902011', '32460248586', '919398758484']
 global.allowed = ['917605902011', '32460248586', '19152999993']
